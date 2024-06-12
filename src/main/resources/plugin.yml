@@ -1,0 +1,11 @@
+name: Snowball
+version: '${project.version}'
+main: com.miaoyww.snowball.Snowball
+api-version: '1.20'
+commands:
+  snowball:
+    description: 一起打雪仗吧！
+    usage: /snowball
+    permission: snowball.command
+    aliases:
+    - sb
